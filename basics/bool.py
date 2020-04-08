@@ -29,3 +29,20 @@ print("demonstrating truthy & falsey")
 print(bool(0.00))
 print(bool(0))
 print(bool(''))
+print(bool('potato'))
+print(bool('11'))
+
+##Truthy
+a = 5 
+if a:
+    print("Will print", a)
+
+##Falsy with
+b = 0 
+if not b :
+    print("Will print", b)
+    
+##Falsy
+b = 0 
+if b :
+    print("Wont print", b)
